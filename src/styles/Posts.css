@@ -1,0 +1,111 @@
+/* Post Modal */
+
+.post__modal {
+  border-radius: 8px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  color: var(--black);
+  width: 300px;
+}
+.post__header--ellipsis {
+  font-size: calc(18 / 16 * 1rem);
+}
+
+/* .hide {
+  display: none;
+} */
+
+.post__modal button {
+  font-size: 1rem;
+  padding: 20px 0;
+
+  color: var(--black);
+}
+
+.post__modal button:first-child {
+  color: var(--red);
+  border-bottom: 1px solid var(--grey);
+}
+
+.post__modal button:hover {
+  opacity: 0.7;
+}
+
+.post {
+  width: 100%;
+  margin: 15px auto;
+  border-radius: 8px;
+  border: 1px solid var(--grey);
+  background-color: var(--white);
+}
+
+.post .post__header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+}
+
+.post .post__header .post__header--wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.post .post__header .post__header--wrapper p {
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: calc(14 / 16 * 1rem);
+}
+
+.post .post__header .ellipsis {
+  cursor: pointer;
+  color: var(--black);
+  font-size: calc(20 / 16 * 1rem);
+}
+
+.post .post__image {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+/* container */
+.post__container .post__actions {
+  display: flex;
+  padding: 10px 10px 0px;
+  justify-content: space-between;
+}
+
+.post__container .post__actions .post--icons {
+  font-size: calc(25 / 16 * 1rem);
+}
+
+.post__container .post__actions .post--icons.heart {
+  cursor: pointer;
+  color: var(--red);
+}
+
+.post__container .post__actions .post--icons:not(:first-child) {
+  margin-left: 10px;
+}
+
+.post__container .post__actions .post--icons:nth-child(3) {
+  font-size: calc(24 / 16 * 1rem);
+}
+
+.post__container .post__likes {
+  font-weight: 600;
+  padding: 10px 10px 5px 10px;
+  font-size: calc(14 / 16 * 1rem);
+}
+
+.post__container .post__caption {
+  padding: 0px 10px 10px;
+  font-size: calc(14 / 16 * 1rem);
+}
+
+.post__container .post__caption .username.thick,
+.post__container .post__caption .username {
+  font-weight: 600;
+}

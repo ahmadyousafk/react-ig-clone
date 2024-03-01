@@ -1,0 +1,138 @@
+.login {
+  height: 95vh;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__picture {
+  width: 350px;
+  margin-right: 100px;
+}
+
+.login__form {
+  height: 350px;
+  display: flex;
+  padding: 0 30px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-left: 100px;
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid var(--grey);
+  background-color: var(--white);
+  justify-content: space-around;
+}
+
+.login__form p {
+  width: 280px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.login__form img {
+  width: 180px;
+}
+
+.login__form button {
+  width: 100%;
+  border: none;
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 3px;
+  color: var(--white);
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  background-color: var(--blue);
+}
+
+.login__form button:hover {
+  background-color: #0082d9;
+}
+
+@media screen and (max-width: 1000px) {
+  .login__picture {
+    margin-right: 30px;
+  }
+
+  .login__form {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .login__picture {
+    width: 310px;
+  }
+
+  .login__form {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .login {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .login__picture {
+    width: 310px;
+    margin-right: 0;
+  }
+
+  .login__form {
+    height: 330px;
+    margin-left: 0;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-height: 828px) {
+  .login {
+    height: 90vh;
+  }
+
+  .login__picture {
+    width: 250px;
+  }
+
+  .login__form {
+    width: 280px;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+
+  .login__form .login__info {
+    width: 250px;
+    font-size: 0.9rem;
+  }
+
+  .login__form img {
+    width: 140px;
+  }
+
+  .login__form button {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-height: 690px) {
+  .login {
+    justify-content: flex-start;
+  }
+
+  .login__picture {
+    width: 200px;
+  }
+}

@@ -1,0 +1,35 @@
+.feed__container {
+  display: grid;
+  padding-top: 80px;
+  position: relative;
+  justify-content: center;
+  grid-template-columns: 500px 300px;
+}
+
+@media screen and (max-width: 1000px) {
+  .feed__container,
+  .home {
+    grid-template-columns: 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .feed__container,
+  .home {
+    grid-template-columns: 400px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .feed__container,
+  .home {
+    grid-template-columns: 350px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .feed__container,
+  .home {
+    grid-template-columns: 300px;
+  }
+}

@@ -1,0 +1,22 @@
+footer {
+  color: #95959d;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+footer a {
+  color: #95959d;
+}
+
+.footer__emoji {
+  font-size: 0.8rem;
+}
+
+footer a:hover {
+  color: #656565;
+}
+
+.secondary__footer {
+  margin-top: 30px;
+  text-align: center;
+}

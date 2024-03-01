@@ -1,0 +1,65 @@
+.SideProfile {
+  position: fixed;
+  width: 300px;
+}
+
+.suggestions__intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestions__intro p:first-child {
+  font-weight: 600;
+  color: #929292;
+  font-size: calc(14 / 16 * 1rem);
+}
+
+.suggestions__intro p:nth-last-child(1) {
+  font-weight: 600;
+  font-size: calc(12 / 16 * 1rem);
+}
+
+.profile,
+.main__profile {
+  display: flex;
+  margin: 15px 0;
+  align-items: center;
+}
+
+.main__profile img {
+  margin-right: 10px;
+}
+
+.main__profile--info p:nth-child(2) {
+  color: #929292;
+  padding-top: 5px;
+  font-size: calc(14 / 16 * 1rem);
+}
+
+.profile--info p:nth-child(2) {
+  color: #929292;
+  padding-top: 5px;
+  font-size: calc(12 / 16 * 1rem);
+}
+
+.profile button,
+.main__profile button {
+  margin-left: auto;
+
+  font-size: calc(12 / 16 * 1rem);
+}
+
+.main__profile button a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.signOut:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+  .feed__profile {
+    display: none;
+  }
+}

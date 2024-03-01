@@ -1,0 +1,95 @@
+.stories,
+.post {
+  margin: auto;
+  max-width: 450px;
+  border-radius: 8px;
+  border: 1px solid var(--grey);
+  background-color: var(--white);
+}
+
+.post__description .post__actions .post__actions--icon:nth-child(3),
+.header__nav .header__nav--icon.plane {
+  transform: translateY(-2px) rotate(60deg);
+}
+
+.username {
+  font-weight: 600;
+  font-size: calc(14 / 16 * 1rem);
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--black);
+  background-color: transparent;
+}
+
+.story img,
+.main__profile img {
+  width: 60px;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+.post .post__header .post__header--wrapper img,
+.profile img {
+  width: 37px;
+  height: 37px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 340px;
+  background-color: var(--white);
+  border-radius: 8px;
+}
+
+.modal__info {
+  padding: 15px 10px;
+  width: 100%;
+  border-bottom: 1px solid var(--grey);
+  font-size: 1rem;
+}
+
+.modal .modal__action--button {
+  color: var(--red);
+  padding: 15px 0;
+  width: 100%;
+  border-bottom: 1px solid var(--grey);
+  font-size: 1rem;
+}
+
+.modal .modal__cancel--button {
+  padding: 15px;
+  font-size: 1rem;
+}
+
+.modal button:hover,
+.post__modal button:hover {
+  opacity: 0.8;
+}
+
+/* Blue buttons */
+.main__profile button a,
+.profile button,
+.main__profile button,
+.post .comments__container button {
+  color: var(--blue);
+  transition: all 0.3s ease;
+}
+
+.main__profile button a:hover,
+.profile button:hover,
+.main__profile button:hover,
+.post .comments__container button:hover {
+  color: var(--blue);
+  color: #0079ca;
+}
